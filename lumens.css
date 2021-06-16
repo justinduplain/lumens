@@ -1,0 +1,732 @@
+/* ---GENERAL--- */
+
+.element-shell {
+	margin-top: 7px;
+}
+
+.template-area {
+	padding-top: 0;
+}
+
+#main_accordion,
+#secondary_accordion {
+	display: block;
+}
+
+.Header,
+.header,
+.HeaderL,
+h1 {
+	background: none;
+}
+
+.btn-primary {
+	color: #fff;
+	background-color: #2a82a6;
+	border-color: #2a82a6;
+	transition: background-color 0.5s;
+	transition: border-color 0.5s;
+}
+
+.btn-info,
+.btn-success {
+	color: #fff;
+	background-color: #00365f;
+	border-color: #00365f;
+	transition: background-color 0.5s;
+	transition: border-color 0.5s;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+	color: #fff;
+	background-color: #00365f;
+	border-color: #00365f;
+	transition: background-color 0.5s;
+	transition: border-color 0.5s;
+}
+
+.btn-info:hover,
+.btn-info:focus,
+.btn-success:hover,
+.btn-success:focus {
+	color: #fff;
+	background-color: #2a82a6;
+	border-color: #2a82a6;
+	transition: background-color 0.5s;
+	transition: border-color 0.5s;
+}
+
+/* HOME PAGE STYLES */
+
+/* ---Hero Row--- */
+
+.row .hero {
+	background-color: #2a82a6;
+}
+
+.col-md-4 {
+	margin-bottom: 1em;
+}
+
+.col-md-4.col-1 {
+	padding-left: 0;
+	margin-left: 0;
+	padding-right: 1em;
+}
+
+.col-md-4.col-2 {
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+}
+
+.col-md-4.col-3 {
+	padding-right: 0;
+	padding-left: 1em;
+}
+
+div.hero-program {
+	background-color: #2a82a6;
+	color: #ffffff;
+	padding: 5px 16px;
+}
+
+.hero-program * {
+	color: white;
+	font-family: helvetica, arial, sans-serif;
+}
+
+.hero-program h3 {
+	font-weight: 600;
+}
+
+.hero-program a:hover,
+.hero-program a:focus {
+	color: #00365f;
+}
+
+.hero-program p {
+	font-size: 1.1em;
+	line-height: 1.5em;
+}
+
+.hero-program a {
+	text-decoration: underline;
+}
+
+/* ---Featured Classes--- */
+.row.three-col.featured-classes {
+	margin-top: 14px;
+}
+
+.row.three-col.featured-programs {
+	margin-top: 14px;
+}
+
+.featured-programs img {
+	width: 100%;
+}
+
+div.featured-info {
+	background-color: #00365f;
+	margin-top: 0;
+	padding: 2em 3em;
+}
+
+.featured-info h3 {
+	margin-top: 0;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+	font-size: 1.15em;
+	text-align: center;
+}
+
+.featured-info * {
+	color: #ffffff;
+	font-family: helvetica, arial, sans-serif;
+}
+
+.featured-info a.btn:hover,
+.featured-info a.btn:focus {
+	background-color: #effbfc;
+	border-color: #effbfc;
+	color: #003760;
+}
+
+/*  --- Information Row --- */
+
+.row.two-col.information {
+	min-height: 50vh;
+}
+
+.information .col-md-4.col-1 {
+	padding-right: 1.25em;
+}
+
+div#industry-certifications {
+	min-height: 50vh;
+	height: 100%;
+	background-color: #003760;
+	background-image: url(https://scf.augusoft.net/Customers/SCF/images/home_page_img/smiling-workplace-1024x682.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+div#industry-certifications .featured-text {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+.featured-text {
+	padding: 1.75em;
+}
+
+.featured-text * {
+	color: #ffffff;
+	font-size: 1.125em;
+}
+
+div#industry-certifications .featured-text h3 {
+	font-size: 3em;
+	line-height: 1.2em;
+	text-shadow: 2px 2px #00000040;
+}
+
+div#industry-certifications .featured-text p,
+div#industry-certifications .featured-text a {
+	font-size: 1.35em;
+	text-shadow: 2px 2px #00000040;
+	line-height: 1.2em;
+	transition: color 0.3s;
+}
+
+div#industry-certifications .featured-text a:hover {
+	color: #2a82a6;
+	text-decoration: none;
+	transition: color 0.3s;
+}
+
+/* Quick Links */
+
+div#quick-links {
+	background-color: #2a82a6;
+	min-height: 24em;
+	height: 50vh;
+}
+
+div#quick-links .featured-text {
+	/* background-color: #2a82a6; */
+	background-color: #2a82a6;
+	padding-top: 0.5em;
+	min-height: 50vh;
+}
+
+.featured-text a:hover {
+	color: #003760;
+}
+
+#quick-links h3 {
+	font-family: helvetica, arial, sans-serif;
+	font-weight: 300;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	font-size: 1.4em;
+}
+
+#quick-links ul {
+	padding-left: 1.5em;
+}
+
+/* ---Search and Contact Row--- */
+
+.row.two-col.search-contact {
+	min-height: 25vh;
+}
+
+.search-contact .col-md-8.col-1 {
+	padding-left: 0;
+}
+
+.search-contact .col-md-4.col-3 {
+	padding-left: 0.5em;
+}
+
+div#search-2 {
+	background-color: #003760;
+	color: #ffffff;
+	min-height: 25vh;
+	height: 100%;
+	background-color: #003760;
+	background-image: url(https://scf.augusoft.net/Customers/SCF/images/home_page_img/Contract%20Training.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 2em;
+}
+
+#search-2 .block-search {
+	float: left;
+	margin: 1em auto 1em auto;
+	background: none;
+	max-width: 100%;
+}
+
+form#searchNav2 {
+	float: left;
+	width: 80%;
+	/* height: 100%; */
+}
+
+#search-2 p {
+	clear: both;
+}
+
+input#keywords2 {
+	height: 2em;
+}
+
+input#searchClassSubmit2 {
+	height: 2.5em;
+}
+
+input#keywords2 {
+	height: 40px;
+	color: #505050;
+}
+
+#search-2 h3,
+#search-2 p,
+#contact-us h3,
+#contact-us p {
+	color: #ffffff;
+	font-family: helvetica, arial, sans-serif;
+	text-shadow: 2px 2px 2px #00000040;
+	font-size: 1.5em;
+	line-height: 1.3em;
+	font-weight: 300;
+}
+
+#search-2 h3,
+#contact-us h3 {
+	font-size: 2.5em;
+	text-transform: uppercase;
+	letter-spacing: 0.075em;
+	margin-top: 0;
+}
+
+input#keywords2 {
+	font-size: 1.25em;
+}
+
+#search-2 a {
+	color: #ffffff;
+	text-decoration: underline;
+}
+
+#search-2 p {
+	line-height: 1.5em;
+	font-size: 1.5em;
+}
+
+div#contact-us {
+	background-color: #2a82a6;
+	color: #ffffff;
+	min-height: 270px;
+	height: 100%;
+	background-image: url(https://scf.augusoft.net/Customers/SCF/images/home_page_img/contact.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 2em;
+}
+
+#contact-us h3 {
+	font-size: 1.75em;
+	text-align: center;
+	margin-bottom: 70%;
+}
+
+#contact-us a {
+	color: #ffffff;
+	text-shadow: 2px 2px 2px #00000040;
+	font-weight: 500;
+}
+
+#contact-us p {
+	text-align: center;
+	padding: 0;
+	margin-bottom: 0;
+}
+
+/* ---CONTACT US BARS--- */
+/* There are two, one at the top and one at the bottom
+/* This hides them both. */
+body .navigation {
+	display: none;
+}
+
+/* This reveals the contact us bar at the top of the page */
+body #wrapper .navigation {
+	display: block;
+	letter-spacing: 0.1em;
+}
+
+/* ---SEARCH--- */
+.block-search {
+	background-color: #f0fbfc;
+	border-radius: 5px 5px 5px 5px;
+	padding: 0px;
+	margin-top: 20px;
+	border: none;
+}
+
+#searchNav .input-text,
+#searchNav .input-text:focus-visible {
+	border: solid 1px #0084a9;
+	height: 28px;
+	border-radius: 3px 0 0 3px;
+}
+
+#searchNav2 .input-text,
+#searchNav2 .input-text:focus-visible {
+	border: solid 1px #0084a9;
+	height: 43px !important;
+	border-radius: 3px 0 0 3px;
+}
+
+input#searchClassSubmit,
+input#searchClassSubmit2 {
+	border-radius: 0 3px 3px 0;
+	margin-left: 0px;
+	font-size: 1.25em;
+}
+
+input#searchClassSubmit:hover,
+input#searchClassSubmit2:hover {
+	background-color: #00355f;
+	transition: background-color 0.5s;
+}
+
+a.adv-search-link {
+	color: #2a82a6;
+	margin-top: 7px;
+	margin-left: 5px;
+}
+
+/* ---ACCOUNT & RECENTLY VISITED BAR--- */
+.nav-account {
+	background-color: #2a82a6;
+	border: none;
+	margin-bottom: 5px;
+	padding: 6px;
+}
+
+.nav-account ul li a,
+.nav-banner ul li a {
+	color: #ffffff !important;
+	margin-left: 5px;
+	margin-top: 5px;
+}
+
+.nav-last-viewed {
+	display: none;
+}
+
+.nav-account-image,
+.nav-last-view-image {
+	max-height: 24px;
+	display: none;
+}
+
+.nav-account ul {
+	font-size: 14px;
+	line-height: 22px;
+}
+
+.nav-last-viewed .list-info {
+	width: 20%;
+	font: 14px/16px Helvetica, Arial, sans-serif;
+}
+
+.nav-last-viewed-cont {
+	width: 80%;
+}
+
+.nav-last-viewed ul li {
+	width: 23%;
+}
+
+.nav-last-viewed ul li,
+.nav-last-viewed ul li a {
+	color: white !important;
+}
+
+/* ---MAIN AREA & LEFT NAV--- */
+
+.content {
+	width: 79.4%;
+	margin-left: 0.6%;
+}
+
+/* LEFT NAV */
+
+/* removes the quirky arrow images from the menu */
+.nav-main ul li.trigger-menu a,
+.nav-main ul li a.nav-twist,
+.nav-secondary ul li.trigger-menu a,
+.nav-secondary ul li a.nav-twist,
+.nav-secondary-link {
+	background-image: none;
+	font-family: helvetica, arial, sans-serif;
+}
+
+/* removes the busy side-pointing images from the menu */
+.nav-main span.nav-rsaqou,
+.nav-secondary span.nav-rsaqou {
+	display: none;
+}
+
+/* adds an after triangle that rotates and animates to the main menu section */
+.nav-main ul li.trigger-menu a.nav-browse-open:after,
+.nav-secondary ul li.trigger-menu a.nav-browse-open:after {
+	content: "\25BE";
+	float: right;
+	font-size: 1.5em;
+	margin-top: 0px;
+	transform: rotate(180deg);
+	transition: transform 0.25s ease-in-out;
+}
+
+.nav-main ul li.trigger-menu a:after,
+.nav-secondary ul li.trigger-menu a:after {
+	content: "\25BE";
+	float: right;
+	font-size: 1.5em;
+	margin-top: -3px;
+	transform: rotate(0deg);
+	transition: transform 0.25s ease-in-out;
+}
+
+.nav-main ul li a {
+	font-family: helvetica, arial, sans-serif;
+}
+
+/* makes the left border on submenu items a bit narrower than default */
+ul.submenu li {
+	border-left: 3px solid #0084a9;
+	font-family: helvetica, arial, sans-serif;
+}
+
+ul.submenu-secondary li {
+	border-left: 3px solid #00355f;
+	font-family: helvetica, arial, sans-serif;
+}
+
+/* ---FOOTER--- */
+
+.footer {
+	border-bottom-color: #00355f;
+	padding: 2em 0 2em 0;
+}
+
+.footer nav {
+	display: flex;
+	justify-content: left;
+}
+
+.footer a {
+	color: #ffffff;
+}
+
+.footer-logo {
+	width: 25%;
+}
+
+.footer-logo-image {
+	max-width: 126px;
+	float: left;
+	margin-left: 4%;
+}
+
+.footer nav ul {
+	list-style-type: none;
+	display: block;
+	float: left;
+	text-align: left;
+	padding-left: 0;
+	font-size: 1.2em;
+	font-weight: 500;
+	margin-right: 5%;
+}
+
+.branding-footer,
+.branding-footer a {
+	text-align: center;
+	color: white !important;
+}
+
+.branding-footer {
+	padding: 14px;
+}
+
+div#back-top {
+	margin-top: -171px;
+	padding: 0;
+	width: 60%;
+}
+
+.button-cont a:hover,
+.button-cont a:focus {
+	background-color: #2a82a6;
+	border-color: #2a82a6;
+	transition: border-color 0.5s, background-color 0.5s;
+}
+
+a.button.button-backtotop {
+	padding: 50px 20px;
+	background-image: none;
+	font-family: helvetica, arial, sans-serif;
+	font-weight: 300;
+}
+
+a.button.button-backtotop::before {
+	content: "\21E7";
+	display: block;
+	font-size: 2em;
+	margin-bottom: 6%;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 1076px) {
+	#excel-heading {
+		margin-bottom: 44px;
+	}
+}
+
+@media screen and (max-width: 991px) {
+	.element-shell {
+		padding: 2em;
+		padding-top: 0;
+	}
+
+	.col-md-4.col-1,
+	.col-md-4.col-2,
+	.col-md-4.col-3 {
+		padding-right: 0;
+		padding-left: 0;
+	}
+
+	.information .col-md-4.col-1 {
+		padding-right: 0;
+	}
+
+	.search-contact .col-md-8.col-1 {
+		padding: 1em 0;
+	}
+
+	.search-contact .col-md-4.col-3 {
+		padding: 1em 0;
+	}
+
+	div#quick-links {
+		min-height: auto;
+		height: auto;
+		padding-left: 2em;
+		font-size: 1.75em;
+	}
+
+	#quick-links h3 {
+		line-height: 1.5em;
+		font-size: 1em;
+	}
+
+	.featured-text * {
+		font-size: 1em;
+	}
+
+	div#contact-us {
+		padding-bottom: 2em;
+	}
+}
+
+@media screen and (max-width: 790px) {
+	.banner .client-logo {
+		min-height: 85px;
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.banner-logo-image {
+		padding-left: 0 !important;
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+	}
+
+	div#back-top {
+		margin-top: auto;
+	}
+
+	a.button.button-backtotop {
+		padding: 6px 0;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.content {
+		width: 100%;
+		margin: 0;
+	}
+}
+
+@media screen and (max-width: 690px) {
+	.nav-set-cont {
+		margin-bottom: 20px;
+	}
+}
+
+@media screen and (max-width: 580px) {
+	.featured-text * {
+		font-size: 1em;
+	}
+
+	#quick-links h3 {
+		font-size: 1em;
+	}
+
+	.footer-logo {
+		float: none;
+		width: auto;
+	}
+
+	.footer-logo-image {
+		max-width: 180px;
+		float: none;
+		margin: 0 0 5% 0;
+	}
+
+	.footer nav {
+		justify-content: space-around;
+		flex-direction: column;
+	}
+
+	.footer nav ul {
+		margin: 0;
+		text-align: center;
+		font-size: 2em;
+		line-height: 2em;
+	}
+}
+
+@media screen and (max-device-width: 320px),
+	only screen and (max-width: 480px) {
+	.block-search {
+		background: none;
+		border: none;
+		display: block;
+	}
+}

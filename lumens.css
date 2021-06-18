@@ -65,10 +65,6 @@ h1 {
 	background-color: #2a82a6;
 }
 
-.col-md-4 {
-	margin-bottom: 1em;
-}
-
 .col-md-4.col-1 {
 	padding-left: 0;
 	margin-left: 0;
@@ -156,16 +152,17 @@ div.featured-info {
 /*  --- Information Row --- */
 
 .row.two-col.information {
-	min-height: 50vh;
+	display: flex;
+	margin-bottom: 1em;
+	margin-top: 1em;
 }
 
 .information .col-md-4.col-1 {
 	padding-right: 1.25em;
+	flex: auto;
 }
 
 div#industry-certifications {
-	min-height: 50vh;
-	height: 100%;
 	background-color: #003760;
 	background-image: url(https://scf.augusoft.net/Customers/SCF/images/home_page_img/smiling-workplace-1024x682.jpg);
 	background-size: cover;
@@ -179,6 +176,13 @@ div#industry-certifications .featured-text {
 	left: 0;
 }
 
+div#industry-certifications .featured-text h3 {
+	font-size: 3em;
+	line-height: 1.2em;
+	text-shadow: 2px 2px #00000040;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
 .featured-text {
 	padding: 1.75em;
 }
@@ -186,12 +190,6 @@ div#industry-certifications .featured-text {
 .featured-text * {
 	color: #ffffff;
 	font-size: 1.125em;
-}
-
-div#industry-certifications .featured-text h3 {
-	font-size: 3em;
-	line-height: 1.2em;
-	text-shadow: 2px 2px #00000040;
 }
 
 div#industry-certifications .featured-text p,
@@ -212,12 +210,10 @@ div#industry-certifications .featured-text a:hover {
 
 div#quick-links {
 	background-color: #2a82a6;
-	min-height: 24em;
-	height: 50vh;
+	height: 100%;
 }
 
 div#quick-links .featured-text {
-	/* background-color: #2a82a6; */
 	background-color: #2a82a6;
 	padding-top: 0.5em;
 	min-height: 50vh;
@@ -256,7 +252,6 @@ div#quick-links .featured-text {
 div#search-2 {
 	background-color: #003760;
 	color: #ffffff;
-	min-height: 25vh;
 	height: 100%;
 	background-color: #003760;
 	background-image: url(https://scf.augusoft.net/Customers/SCF/images/home_page_img/Contract%20Training.jpg);
@@ -276,7 +271,6 @@ div#search-2 {
 form#searchNav2 {
 	float: left;
 	width: 80%;
-	/* height: 100%; */
 }
 
 #search-2 p {
@@ -529,6 +523,7 @@ ul.submenu-secondary li {
 .footer {
 	border-bottom-color: #00355f;
 	padding: 2em 0 2em 0;
+	min-height: 150px;
 }
 
 .footer nav {
@@ -612,11 +607,20 @@ a.button.button-backtotop::before {
 		padding-top: 0;
 	}
 
+	.col-md-4,
+	.col-md-8 {
+		margin-bottom: 1em;
+	}
+
 	.col-md-4.col-1,
 	.col-md-4.col-2,
 	.col-md-4.col-3 {
 		padding-right: 0;
 		padding-left: 0;
+	}
+
+	.row.two-col.information {
+		display: block;
 	}
 
 	.information .col-md-4.col-1 {
@@ -641,6 +645,10 @@ a.button.button-backtotop::before {
 	#quick-links h3 {
 		line-height: 1.5em;
 		font-size: 1em;
+	}
+
+	div#industry-certifications {
+		min-height: 60vh;
 	}
 
 	.featured-text * {

@@ -261,7 +261,7 @@ div#search-2 {
 	padding: 2em;
 }
 
-#search-2 .block-search {
+#search-2 .block-search2 {
 	float: left;
 	margin: 1em auto 1em auto;
 	background: none;
@@ -368,12 +368,14 @@ body #wrapper .navigation {
 }
 
 /* ---SEARCH--- */
-.block-search {
+.block-search,
+.block-search2 {
 	background-color: #f0fbfc;
 	border-radius: 5px 5px 5px 5px;
 	padding: 0px;
 	margin-top: 20px;
 	border: none;
+	width: 100%;
 }
 
 #searchNav .input-text,
@@ -732,7 +734,8 @@ a.button.button-backtotop::before {
 
 @media screen and (max-device-width: 320px),
 	only screen and (max-width: 480px) {
-	.block-search {
+	.block-search,
+	.block-search2 {
 		background: none;
 		border: none;
 		display: block;

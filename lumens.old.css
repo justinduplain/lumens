@@ -1,0 +1,15 @@
+#main_accordion,
+#secondary_accordion {
+	display: block;
+}
+
+.block-search {
+	background-color: #97c0e6;
+	border-radius: 6px 6px 6px 6px;
+	padding: 10px;
+}
+
+.nav-account ul {
+	font-size: 14px;
+	line-height: 22px;
+}

@@ -6,6 +6,7 @@
 
 .template-area {
 	padding-top: 0;
+	padding-right: 10px;
 }
 
 #main_accordion,
@@ -55,6 +56,10 @@ h1 {
 	border-color: #2a82a6;
 	transition: background-color 0.5s;
 	transition: border-color 0.5s;
+}
+
+.last {
+	padding-right: 0;
 }
 
 /* HOME PAGE STYLES */
@@ -147,6 +152,22 @@ div.featured-info {
 	background-color: #effbfc;
 	border-color: #effbfc;
 	color: #003760;
+}
+
+.featured-info a img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	opacity: 100%;
+	transition: opacity 0.5s;
+}
+
+.featured-info a img:hover,
+.featured-info a:hover,
+.featured-info a img:focus,
+.featured-info a:focus {
+	opacity: 75%;
+	transition: opacity 0.5s;
 }
 
 /*  --- Information Row --- */
@@ -582,7 +603,7 @@ div#back-top {
 }
 
 a.button.button-backtotop {
-	padding: 50px 20px;
+	padding: 50px 20px 46px 20px;
 	background-image: none;
 	font-family: helvetica, arial, sans-serif;
 	font-weight: 300;
@@ -623,6 +644,10 @@ a.button.button-backtotop::before {
 
 	.row.two-col.information {
 		display: block;
+	}
+
+	.featured-info a img {
+		width: 60%;
 	}
 
 	.information .col-md-4.col-1 {

@@ -21,6 +21,19 @@ h1 {
 	background: none;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: helvetica, arial, sans-serif;
+}
+
+span.bold {
+	font-weight: 600;
+}
+
 .btn-primary {
 	color: #fff;
 	background-color: #2a82a6;
@@ -687,6 +700,169 @@ a.button.button-backtotop::before {
 	}
 }
 
+/* --- CLASS LISTS --- */
+
+.class-container .class h2,
+.class-container .class h2 a,
+.class-container .class h3,
+.class-container .class h3 a {
+	text-transform: uppercase;
+	font-size: 1.33em;
+	margin-right: 5px;
+}
+
+.class .row-title h6 {
+	font-size: 1.1em;
+	margin: 28px 10px 0px 0px;
+}
+
+.row.class.cf {
+	background-color: #ffffff;
+	padding: 26px;
+	border-right: 1px solid #d5d0d0;
+}
+
+.addToCart-Wrap a,
+.class_submit_cs {
+	padding: 12px;
+	transition: all 0.33s;
+	border-radius: 3px;
+	text-transform: uppercase;
+	font-weight: 600;
+	clear: both;
+	margin-top: 10px;
+}
+
+.addToCart-Wrap a:hover {
+	color: #ffffff;
+	background-color: #2a82a6;
+	transition: all 0.33s;
+}
+
+.addToCart-Wrap .fr {
+	display: none;
+}
+
+.class-container .section.group h2 a {
+	font-weight: 600;
+}
+
+.row-info {
+	color: #00365f;
+}
+
+a.view-details {
+	padding: 6px;
+	background-color: unset;
+	font-weight: bold;
+	color: #2a82a6;
+	transition: all 0.33s;
+	clear: both;
+}
+
+a.view-details:hover {
+	background-color: unset;
+	color: #00365f;
+}
+
+/* --- SINGLE CLASS INFO --- */
+
+.classinfo-container h2 {
+	background-color: #00365f;
+	margin-top: 0;
+	color: #ffffff;
+	padding: 10px;
+}
+
+.class-description {
+	padding: 15px;
+}
+
+.col-info {
+	padding: 0px 10px;
+}
+
+.col-fee {
+	padding: 0 10px;
+}
+
+.classinfo-container h4 {
+	text-shadow: none;
+	font-weight: 600;
+}
+
+.class-description:before {
+	content: "Description";
+	font-size: 2em;
+	display: block;
+	padding: 18px;
+	background-color: #00365f;
+	margin-top: 0;
+	color: #ffffff;
+	margin-bottom: 15px;
+}
+
+a#btn_send_friend {
+	margin-top: 0;
+	color: #2a82a6;
+	padding: 10px;
+	text-align: center !important;
+}
+
+.checkout-cart,
+.other-cart-links {
+	font-size: 14px !important;
+	border: none;
+}
+
+.button.add-to-cart,
+.button.add-to-cart a {
+	background-color: #2a82a6;
+	border-radius: 5px;
+	border-bottom: none;
+	padding: 16px;
+	color: #ffffff;
+	text-decoration: none;
+	transition: all 0.33s;
+	text-align: center !important;
+}
+
+.button.add-to-cart:hover,
+.button.add-to-cart a:hover {
+	background-color: #003760;
+	transition: all 0.33s;
+	color: #ffffff;
+}
+
+.classinfo-container h3,
+.list-info {
+	text-shadow: none;
+	font-family: helvetica, arial, sans-serif;
+}
+
+.class-description-cont {
+	font-size: 1.2em;
+	line-height: 1.2em;
+}
+
+.section.group.class_info_template_section {
+	width: 100%;
+}
+
+.classinfo-container .interested-in {
+	width: 100%;
+	margin-top: 20px;
+}
+
+.classinfo-container h1 {
+	font-family: helvetica, arial, sans-serif;
+	font-weight: 600;
+	text-shadow: none;
+	text-transform: uppercase;
+	font-size: 2.25em;
+	letter-spacing: 0.03em;
+}
+
 @media screen and (max-width: 790px) {
 	.banner .client-logo {
 		min-height: 85px;
@@ -721,6 +897,14 @@ a.button.button-backtotop::before {
 @media screen and (max-width: 690px) {
 	.nav-set-cont {
 		margin-bottom: 20px;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.class .row-title h6 {
+		font-size: initial;
+		margin: 10px 0px;
+		float: none;
 	}
 }
 

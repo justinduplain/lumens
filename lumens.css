@@ -21,17 +21,12 @@ h1 {
 	background: none;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-	font-family: helvetica, arial, sans-serif;
+h1, h2, h3, h4, h5, h6 {
+	font-family: helvetica, arial, sans-serif; 
 }
 
 span.bold {
-	font-weight: 600;
+    font-weight: 600;
 }
 
 .btn-primary {
@@ -702,18 +697,15 @@ a.button.button-backtotop::before {
 
 /* --- CLASS LISTS --- */
 
-.class-container .class h2,
-.class-container .class h2 a,
-.class-container .class h3,
-.class-container .class h3 a {
-	text-transform: uppercase;
-	font-size: 1.33em;
-	margin-right: 5px;
+.class-container .class h2, .class-container .class h2 a, .class-container .class h3, .class-container .class h3 a {
+    text-transform: uppercase;
+    font-size: 1.33em;
+    margin-right: 5px;
 }
 
 .class .row-title h6 {
-	font-size: 1.1em;
-	margin: 28px 10px 0px 0px;
+    font-size: 1.1em;
+    margin: 28px 10px 0px 0px;
 }
 
 .row.class.cf {
@@ -729,8 +721,6 @@ a.button.button-backtotop::before {
 	border-radius: 3px;
 	text-transform: uppercase;
 	font-weight: 600;
-	clear: both;
-	margin-top: 10px;
 }
 
 .addToCart-Wrap a:hover {
@@ -739,7 +729,7 @@ a.button.button-backtotop::before {
 	transition: all 0.33s;
 }
 
-.addToCart-Wrap .fr {
+.addToCart-Wrap span.fr {
 	display: none;
 }
 
@@ -757,7 +747,6 @@ a.view-details {
 	font-weight: bold;
 	color: #2a82a6;
 	transition: all 0.33s;
-	clear: both;
 }
 
 a.view-details:hover {
@@ -766,6 +755,10 @@ a.view-details:hover {
 }
 
 /* --- SINGLE CLASS INFO --- */
+
+.addthis_toolbox {
+    display: none;
+}
 
 .classinfo-container h2 {
 	background-color: #00365f;
@@ -792,7 +785,7 @@ a.view-details:hover {
 }
 
 .class-description:before {
-	content: "Description";
+	content: "Class Description";
 	font-size: 2em;
 	display: block;
 	padding: 18px;
@@ -806,7 +799,6 @@ a#btn_send_friend {
 	margin-top: 0;
 	color: #2a82a6;
 	padding: 10px;
-	text-align: center !important;
 }
 
 .checkout-cart,
@@ -824,7 +816,6 @@ a#btn_send_friend {
 	color: #ffffff;
 	text-decoration: none;
 	transition: all 0.33s;
-	text-align: center !important;
 }
 
 .button.add-to-cart:hover,
@@ -905,7 +896,6 @@ a#btn_send_friend {
 		font-size: initial;
 		margin: 10px 0px;
 		float: none;
-	}
 }
 
 @media screen and (max-width: 580px) {

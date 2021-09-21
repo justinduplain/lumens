@@ -7,5 +7,5 @@ Updating my state college's lumens landing page and styles. See the site at http
 
 ## Features/Pride Points
 
-- responsive, using Bootstrap and flexbox
-- adds second search into the page
+- responsive, using Bootstrap and CSS Flexbox
+- adds second search box into the page
